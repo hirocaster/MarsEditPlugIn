@@ -20,7 +20,7 @@ class HatenaSyntax_Renderer
     {
         $this->config = $config + array(
             'headerlevel'        => 1,
-            'htmlescape'         => true,
+            'htmlescape'         => false,
             'id'                 => uniqid('sec'),
             'sectionclass'       => 'section',
             'footnoteclass'      => 'footnote',
